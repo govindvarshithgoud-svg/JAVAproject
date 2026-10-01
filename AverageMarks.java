@@ -1,0 +1,18 @@
+import java.util.Scanner;
+public class AverageMarks{
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter marks of sub1:");
+        int sub1=sc.nextInt();
+        System.out.println("enter the marks of sub2:");
+        int sub2=sc.nextInt();
+        System.out.println("enter the marks of sub3:");
+        int sub3= sc.nextInt();
+        System.out.println("enter the marks of sub4:");
+        int sub4=sc.nextInt();
+        System.out.println("enter the marks of sub5:");
+        int sub5=sc.nextInt();
+        double average=(sub1+sub2+sub3+sub4+sub5)/5.0;
+        System.out.println("the average marks are: "+average);
+    }
+}
